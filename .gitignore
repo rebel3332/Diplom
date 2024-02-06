@@ -1,0 +1,13 @@
+# Игнорирование каталогов
+.vscode/
+**/Scripts/
+**/etc/
+**/share/
+**/site-packages/
+**/__pycache__
+**/Include
+# Игнорирование файлов
+#.gitignore
+log.txt
+.env
+pyvenv.cfg
