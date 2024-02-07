@@ -20,7 +20,7 @@ Image Docker можно скачать используя скрипт <br>
 Image Docker можно скачать используя скрипт: <br>
 **docker pull dockermalex/telegram_bot_from_diplob_1year:latest** <br>
 Скрипт для запуска: <br>
-**docker run -it --rm -e TELEGRAM_API="your telegram api key" -e SERVER_URL='http://127.0.0.1:8081' dockermalex/telegram_bot_from_diplob_1year**
+**docker run -it --rm -e TELEGRAM_API="your telegram api key" -e SERVER_URL=http://172.17.0.2:8081 dockermalex/telegram_bot_from_diplob_1year**
 ### Исследование
 Для исследования я решил взять цену акции Амазон с сайта https://query1.finance.yahoo.com/v7/finance/download/AMZN <br>
 Далее проведена работа по анализу данных и отбору признаков.
